@@ -1,5 +1,7 @@
 #!/usr/bin/env groovy
 
+import java.net.URL
+
 node{
     stage('Git checkout'){
         git 'https://github.com/Rajesh-Mushtigunta/DevOpsClassCodes.git'
